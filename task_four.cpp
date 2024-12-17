@@ -21,6 +21,8 @@ int main() {
 	int answer2 = second_part(a, N, W);
 	printf("answer1: %d\n", answer1);
 	printf("answer2: %d\n", answer2);
+
+	return 0;
 }
 
 int first_part(std::vector<std::string>& a, int N, int W){
